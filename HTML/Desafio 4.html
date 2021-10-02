@@ -1,0 +1,121 @@
+<!--
+Evolua seu formulário, e crie uma ficha de matrícula:
+
+00 - Crie uma página com a estrutura básica COMPLETA
+01 - Adicione um main dentro da body
+02 - Adicione um form dentro da <main></main>
+03 - Adicione dentro do form uma <label> Nome:
+04 - Adicione um input com type="text"
+05 - Adicione uma <label> Email:
+06 - Adicione um input com type="email"
+07 - Adicione uma <label> Idade:
+08 - Adicione um input com type="number"
+09 - Adicione um título "Tamanho da camisa:"
+10 - Adicione alguns input com type="radio" contendo os tamanhos das camisas (P,M,G,etc)
+11 - Adicione um título "Dias para estudar: "
+12 - Adicione alguns input com type="checkbox" contendo os dias da semana (seg,ter,etc)
+13 - Adicione ao final um button Enviar.
+
+-->
+<!DOCTYPE html>
+  <html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ficha de Matrícula</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Bem-vinde à página de matrícula!</h1>
+      <h3>Por favor, preencha os dados corretamente para iniciar sua matrícula.</h3>
+    </header>
+    <main>
+      <form>
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" placeholder="insira seu nome completo" />
+        <br><br>
+        <label> Data de Nascimento: </label>
+        <input type="date" />
+        <br><br>
+        <label> Idade: </label>
+        <input type="number" name="idade" />
+        <br><br>
+        <label for="email"> E-mail: </label>
+        <input type="email" name="email" placeholder="insira seu email" />
+        <br><br>
+        <label> Senha: </label>
+        <input type="password" name="senha" placeholder="crie uma senha" />
+        <br><br>
+        <label> Confirme a Senha: </label>
+        <input type="password" required name="senha" placeholder="repita sua senha" />
+        <br><br>
+        <label>Selecione seu tamanho de camiseta:
+          <br><br>
+          <input type="radio" name="camiseta" value="P"/>P <br>
+          <input type="radio" name="camiseta" value="M"/>M <br>
+          <input type="radio" name="camiseta" value="G"/>G <br>
+          <input type="radio" name="camiseta" value="GG"/>GG <br>
+          <input type="radio" name="camiseta" value="outro"/>Prefiro não informar.
+        </label>
+        <br><br>
+        <label> Você se interessa pelo <b>Desenvolvimento Front-End?</b>:
+          <br><br>
+          <input type="radio" name="resposta" value="Sim" />Sim. <br>
+          <input type="radio" name="resposta" value="Não" />Não.
+        </label>
+        <br><br>
+        <label>Selecione a(s) tecnologia(s) que você conhece:
+          <br><br>
+          <input type="checkbox" name="tecnologia" value="HTML" />HTML <br>
+          <input type="checkbox" name="tecnologia" value="CSS" />CSS <br>
+          <input type="checkbox" name="tecnologia" value="JS" />JavaScript <br>
+          <input type="checkbox" name="tecnologia" value="VSCode" />Visual Studio Code (VSCode) <br>
+          <input type="checkbox" name="tecnologia" value="Angular" />Angular <br>
+          <input type="checkbox" name="tecnologia" value="Vue" />VueJS <br>
+          <input type="checkbox" name="tecnologia" value="React" />ReactJS <br>
+        </label>
+       <br>
+        <label> Tem disponibilidade no período da manhã?:
+          <br><br>
+          <input type="radio" name="resposta" value="Sim" />Sim. <br>
+          <input type="radio" name="resposta" value="Não" />Não.
+        </label>
+        <br><br>
+          <label> Tem disponibilidade no período da tarde?:
+          <br><br>
+          <input type="radio" name="resposta" value="Sim" />Sim. <br>
+          <input type="radio" name="resposta" value="Não" />Não.
+        </label>
+        <br><br>
+          <label> Tem disponibilidade no período noturno?:
+          <br><br>
+          <input type="radio" name="resposta" value="Sim" />Sim. <br>
+          <input type="radio" name="resposta" value="Não" />Não.
+        </label>
+        <br><br>
+        <label> Selecione os dias:
+          <br><br>
+           <input type="checkbox" name="semana" value="segunda"/>Segunda-feira <br>
+           <input type="checkbox" name="semana" value="terça"/>Terça-feira <br>
+           <input type="checkbox" name="semana" value="quarta"/>Quarta-feira <br>
+           <input type="checkbox" name="semana" value="quinta"/>Quinta-feira <br>
+           <input type="checkbox" name="semana" value="sexta"/>Sexta-feira
+        </label>
+        <br><br>
+        <label>Escreva um parágrafo sobre você:
+          <br><br>
+          <textarea type="text" placeholder="Opcional - escreva sobre você ou sobre os seus gostos e interesses na tecnologia."></textarea>
+        </label>
+        <br><br>
+        <label>
+        <input type="submit"/>
+        </label>
+        
+      </form>
+    </main>
+    <footer>
+      <p>"<b><i>Drink water and mind ya business</i></b>" | Desenvolvido por <a href="https://linktr.ee/t4lu" target="_blank">talu</a> &copy;</p>
+    </footer>
+  </body>
+  </html>
