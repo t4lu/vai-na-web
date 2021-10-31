@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@300;400&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style:none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-image:url("assets\desafio 7\fire-bg.webp");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: black;
+}
+
+.header-img img{
+  width: 3vw;
+}
+
+.header-img{
+  padding: 2vh 3vw 3vh 8vw;
+  display: inline-block;
+  
+}
+
+.header-title{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8vh;
+}
+
+.header-title h1{
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+nav ul li {
+  display: inline;
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1vw;
+  
+}
+
+nav {
+  display: inline-block;
+  padding-left: 30vw;
+  vertical-align: top;
+  padding-top: 6.5vh;
+}
+
+li:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  background-image: url("assets\desafio 7\the witcher.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 103%;
+  padding-top: 50px;
+}
+
+.name {
+  padding-left: 750px;
+  margin-top: 350px;
+}
+
+button {
+  background: red;
+  width: 300px;
+  height: 55px;
+  border-radius: 9px;
+  
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.click-action {
+  margin: 40px;
+  padding-left: 750px;
+}
+
+footer {
+  color: white;
+  font-variant: small-caps;
+  line-height: 30px;
+  margin: 50px;
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+a:hover {
+  color: yellow;
+}
