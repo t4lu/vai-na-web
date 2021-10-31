@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 10px;
+  }
+  .title {
+    height: 26px;
+    font-size: 22px;
+    line-height: 65px;
+  }
+  
+  .top-links {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 45px;
+  }
+  
+  h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .square {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    background: #E5E5E5;
+  }
+  
+  .x {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 8px;
+  }
+  
+  .adopt {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 150px;
+  }
+  
+  .button1 {
+    display: inline-block;
+    border: 1px solid #CDCDD2;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px #b2b2ba;
+    
+    width: 155px;
+    height: 40px;
+    background-color: #CDCDD2;
+  }
+  
+  .donate {
+    margin-top: 1px;
+    margin-left: 20px;
+    font-size: 19px;
+    line-height: 35px;
+  }
+  
+  .button2 {
+    width: 249px;
+    height: 42px;
+    left: 201px;
+    top: 626px;
+  
+    display: inline-block;
+    border: 3px solid #CDCDD2;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px #b2b2ba;
+    
+    background-color: #CDCDD2;
+  }
+  
+  .about {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .volunteer-button {
+    background: #CDCDD2;
+    border: 1px solid #BFBDBD;
+    box-sizing: border-box;
+  
+    width: 170px;
+    height: 40px;
+  
+    margin-top: 50px;
+  }
+  
+  .volunteer {
+    font-size: 19px;
+    margin-left: 17px;
+    margin-top: 9px;
+  }
+  
+  .circle {
+    border-radius: 500px;
+    
+    margin-top: 60px;
+    
+    width: 246px;
+    height: 246px;
+  
+    background: #C4C4C4;
+  }
+  
+  .adopt-button {
+    background: #CDCDD2;
+    width: 73px;
+    height: 23px;
+  }
+  
+  .adopt-sub {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  
+  .dogs img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+  }
+  
+  a {
+    font-size: 18px;
+    line-height: 60px;
+  
+  }
+  
+  footer div img {
+    display: inline;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .footer{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .footer-links li {
+    line-height: 30px;
+  }
+
+  .talu {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+.talu a {
+    text-decoration: none;
+    color: purple;
+    font-size: 14px;;
+}
