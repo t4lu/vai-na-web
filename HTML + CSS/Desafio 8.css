@@ -30,18 +30,24 @@ nav ul li {
 }
 
 .page-title {
-    display: inline-block;
-    
+    display: inline-flex;
+  
+    flex-wrap: wrap;
+    align-content: center;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 220px;
 
     padding: 0px;
 }
 
 .page-title h1 {
     font-size: 70px;
+    padding-top: 70px;
 }
 
+.page-title img { 
+  display: inline-block;
+}
 
 .middle-menu {
     font-size: 40px;
