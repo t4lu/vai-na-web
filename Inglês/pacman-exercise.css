@@ -1,0 +1,100 @@
+*{
+    margin: 10px;
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.title {
+    margin-left: 500px;
+}
+
+.pac {
+    background-color: yellow;
+    width: 100px;
+    height: 90px;
+    border: solid black;
+    border-radius: 60%;
+}
+
+.eye {
+    width: 1px;
+    height: 1px;
+
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 0%;
+}
+
+.mouth {
+    width: 65px;
+    height: 45px;
+
+    background-color: black;
+ 
+    margin-left: 45px;
+    margin-top: 1px;
+    transform: rotate(600deg)
+
+}
+
+.ghost {
+    display: inline;
+}
+
+.ghost img {
+    margin-left: 600px;
+
+    width: 100px;
+    height: 100px;
+
+}
+.dots-vertical {
+    background-color: blue;
+
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+.inline-dots {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.inline-dots section{
+    background-color: blue;
+
+    border-radius: 100%;
+    margin-left: 0px;
+    margin-top: 25px;
+
+    width: 10px;
+    height: 10px;
+}
+
+footer {
+    text-align: center;
+    
+    font-size: 20px;
+    color: white;
+
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+  }
+  
+.container {
+    display: flex;
+}
