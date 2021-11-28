@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://phamdo18.com/wp-content/uploads/2021/05/hinh-nen-bua2.jpg)
+}
+
+.container{
+    border: solid black;
+    background-color: white;
+    display: flex;
+}
+.first{
+    font-style: oblique;
+    font-size: 1vw;
+    border: double black;
+    height: 22vh;
+}
+.second{
+    font-style: oblique;
+    font-size: 1vw;
+    border: double black;
+    height: 22vh;
+}
+.third{
+    font-style: oblique;
+    font-size: 1vw;
+    border: double black;
+    height: 22vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-weight:900;
+    color:black;
+}
+.box{
+    font-size: 1vw;
+    font-weight: bolder;
+    width: 25vw;
+}
+
+.petisco img {
+
+    display:flex;
+
+    width: 300px;
+    height: 150px;
+
+    position: relative;
+
+    top: 10px;
+    left: 510px
+}
