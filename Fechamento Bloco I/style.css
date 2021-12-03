@@ -16,6 +16,7 @@
 
 .nav-link {
     color: #9767A9;
+    cursor: pointer;
 }
 
 .nav-link:hover {
@@ -36,4 +37,79 @@
     height: 40px;
     padding-left: 30px;
     text-emphasis-color: #9767A9;
+}
+
+.container {
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content {
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tips h1 {
+
+    text-align: left;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 60px;
+  /*  color: #fff; */
+}
+
+.tips2 h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    
+
+    width: 450px;
+    height: 98px;
+
+    /*color: #fff; */
+}
+
+
+.box {
+    background-color: #9767A9;
+
+    width: 1920px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box h2 {
+    width: 840px;
+    height: 172px;
+
+    text-align: left;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 65px;
+
+    color: #fff
+}
+
+.box p {
+    padding-right: 85px;
+
+    width: 760px;
+    height: 250px;
+
+    font-family: Montserrat;
+    font-size: 25px;
+
+    color: #fff
 }
