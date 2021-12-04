@@ -8,99 +8,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 10 - "Tô de Cacho"</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 10 - "Tô de Cacho"</title>
 </head>
 
 <body>
+  <header>
+    <section class="header">
+      <img src="assets/logo todecacho.png" alt="Logo to de cacho">
 
-    <header>
-        <nav class="navbar navbar-expand-lg"> <!--inicia nav com bootstrap-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <img src="assets/logo todecacho.png" width="111" height="55" alt="Logo to de cacho">
-              
-              <ul class="navbar-nav mr-auto"> <!-- abre menu-->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Dicas</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cronograma</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Referências</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Produtos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastre-se</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-              </ul> <!-- fecha menu-->
+      <nav><!-- abre menu-->
+        <ul>
+          <li>Dicas</li>
+          <li>Cronograma</li>
+          <li>Referências</li>
+          <li>Produtos</li>
+          <li>Cadastre-se</li>
+          <li>Contato</li>
+        </ul>
+      </nav> <!-- fecha menu-->
 
+      <section class="search"><!-- abre barra de busca -->
+        <img src="assets/Layer_3.svg" alt="lupinha da barra de busca">
+        <input type="search" placeholder="Buscar">
+      </section> <!--fecha barra de busca -->
 
-              <form class="form-inline"> <!--barra de busca -->
-                <img src="assets/Layer_3.svg" alt="lupinha da barra de busca">
-                <input type="search" placeholder="Buscar">
-              </form>
-
-              <li class="nav-link"><!--inicia redes sociais na lateral sup dir-->
-                <img src="assets/icon face bol.svg" alt="Logo facebook" width="40" height="40">
-            </li>
-            <li class="nav-link">
-                <img src="assets/icon insta bol.svg" alt="Logo instagram" width="40" height="40">
-            </li>
-            <li class="nav-link">
-                <img src="assets/icon youtube bol.svg" alt="Logo do youtube" width="40" height="40">
-            </li> <!--fecha redes sociais na lateral sup dir -->
-
-        </div> <!--fecha o toggler -->
-          </nav><!--fecha nav com bootstrap-->
-    </header>
-
-    <main>
-      <section class= "container">
-        <img src="assets/cabeludo.png" alt="Imagem do topo">
-
-        <section class="content">
-
-          <div class="tips">
-            <h1>Dicas e Truques</h1>
-          </div> <!--fecha div de texto 1 -->
-
-          <div class="tips2">
-            <h1>De quem sabe muito sobre cabelos crespos</h1>
-          </div> <!--fecha div de texto 2 -->
-
-      </section> <!--fecha o content-->
-    </section> <!--fecha o container-->
-
-    <div class="box">
-      <h2>7 passos para se apaixonar pelo seu cabelo crespo natural</h2>
-      
-      <p> Sabemos que a jornada para a aceitação do cabelo crespo natural é longa e nada fácil de trilhar.<br>
-         Afinal, é difícil se libertar das amarras e aprender <br>
-         a se amar depois de anos vivendo em uma sociedade preconceituosa que reprime as características mais comuns do ser humano, como a textura do seu cabelo. Se você está disposta a se aventurar nesse caminho de autoconhecimento e aceitação, vem com a gente! E um segredo: não precisa ter medo!</p>
-
-    </div> <!--fecha a box-->
-    
-    </main>
-    
-    <footer></footer>
-    
-<!--importação do script -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+      <section class="icons"> <!--abre redes sociais na lateral sup dir-->
+          <img src="assets/icon face bol.svg" alt="Logo facebook">
+          <img src="assets/icon insta bol.svg" alt="Logo instagram">
+          <img src="assets/icon youtube bol.svg" alt="Logo youtube">
+      </section> <!--fecha redes sociais na lateral sup dir -->
+    </section><!--fecha a classe header-->
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
 </html>
