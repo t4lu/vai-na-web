@@ -9,6 +9,7 @@
 }
 
 .header {
+    background-color: white;
     display: flex;
     align-items: center;
 
@@ -26,7 +27,7 @@
     margin-top: 16px;
 }
 
- li {
+li {
     display: inline;
     cursor: pointer;
     list-style: none;
@@ -78,7 +79,7 @@ li:hover {
 .icons {
     display: inline;
     align-items: center;
-    
+
     width: 200px;
     height: 70px;
 }
@@ -91,4 +92,92 @@ li:hover {
 
     margin-left: 25px;
     margin-bottom: 18px;
+}
+
+.container {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+  .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tips {
+    width: 360px;
+    height: 200px; 
+
+    position: absolute;
+
+    margin-top: 390px;
+    margin-left: 278px;
+}
+
+.tips h1 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 100px;
+    color: #fff;
+
+    line-height: 90px;
+}
+
+.tips2 {
+    width: 400px;
+    height: 100px; 
+
+    position: absolute;
+
+    margin-left: 1168px;
+    margin-top: 420px;
+
+}
+
+.tips2 h1 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 100;
+    color: #fff;
+
+    width: 450px;
+    height: 98px;
+}
+
+.box {
+    background-color: #9767A9;
+
+    width: 1920px;
+    height: 387px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box h2 {
+    width: 840px;
+    height: 172px;
+
+    text-align: left;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 65px;
+
+    color: #fff
+}
+
+.box p {
+    padding-right: 85px;
+
+    width: 760px;
+    height: 250px;
+
+    font-family: Montserrat;
+    font-size: 25px;
+
+    color: #fff
 }
