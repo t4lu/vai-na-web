@@ -159,25 +159,87 @@ li:hover {
 }
 
 .box h2 {
-    width: 840px;
+    width: 900px;
     height: 172px;
 
     text-align: left;
     font-family: Playfair Display;
-    font-weight: bold;
-    font-size: 65px;
+    font-weight: 900;
+    font-size: 70px;
+
+    color: #fff;
+
+    margin-bottom: 190px;
+    margin-left: 100px;
+}
+
+.box p {
+    margin-right: 85px;
+
+    width: 768px;
+    height: 278px;
+
+    font-family: Montserrat;
+    font-size: 29px;
 
     color: #fff
 }
 
-.box p {
-    padding-right: 85px;
+.gallery-main {
+	display: grid;
+	grid-template-columns: repeat(5, 300px);
+	grid-template-rows: 500px 500px;
 
-    width: 760px;
-    height: 250px;
+   margin-left: 200px;
+}
 
-    font-family: Montserrat;
-    font-size: 25px;
+.column-1 {
+    margin-top: 50px;
+}
+.column-1 img {
+    margin: 7px;
+}
 
-    color: #fff
+.column-2 {
+    margin-left: 110px;
+    margin-top: 50px;
+
+    width: 300px;
+    height: 900px;
+}
+
+.column-2 img {
+    margin: 7px;
+}
+
+.column-3 {
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.column-3 img {
+    margin: 7px;
+}
+
+.column-4 {
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.column-4 img {
+    margin: 7px;
+}
+
+.crown {
+width: 398px;
+height: 598px;
+}
+
+.afro {
+    width: 398px;
+height: 850px;
+
+margin-left: 55px;
+margin-top: 55px;
 }
