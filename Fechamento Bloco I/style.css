@@ -243,3 +243,49 @@ height: 850px;
 margin-left: 55px;
 margin-top: 55px;
 }
+
+footer {
+    display: flex;
+
+    background-color: #9767A9;
+
+    width: 1920px;
+    height: 106px;
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.copyright p {
+    width: 900px;
+
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+
+.icons-footer {
+   display: flex;
+   margin-left: 190px;
+}
+
+.icons-footer p {
+    width: 100px;
+    display: inline-block;
+    margin-top: 20px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+}
+
+.icons-footer img {
+    width: 45px;
+    height: 45px;
+
+    margin-left: 10px;
+    margin-top: 25px ;
+}
