@@ -5,22 +5,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Playfair Display', sans-serif;
+    max-width: 100%;
 }
 
 .header {
-    background-color: white;
     display: flex;
     align-items: center;
 
-    width: 1920px;
+    background-color: white;
+    width:100%;
+    max-width: 1920px;
     height: 87px;
 
     position: fixed;
 }
 
-.header img {
-    width: 120px;
+.header img {width: 120px;
     height: 60px;
 
     margin-left: 167px;
@@ -34,7 +34,6 @@ li {
 
     color: #9767A9;
     font-size: 18px;
-    font-family: Montserrat;
 
     width: 56px;
     height: 22px;
@@ -72,7 +71,6 @@ li:hover {
     padding-left: 35px;
 
     text-emphasis-color: #9767A9;
-    font-family: Montserrat;
     font-size: 16px;
 }
 
@@ -85,7 +83,6 @@ li:hover {
 }
 
 .icons img {
-
     width: 35px;
     height: 35px;
     display: inline;
@@ -94,21 +91,13 @@ li:hover {
     margin-bottom: 18px;
 }
 
-.container {
+.content {
     display: flex;
-
-    width: 100%;
-    height: 100%;
-}
-
-  .content {
-    display: flex;
-    flex-direction: column;
 }
 
 .tips {
     width: 360px;
-    height: 200px; 
+    height: 200px;
 
     position: absolute;
 
@@ -116,7 +105,7 @@ li:hover {
     margin-left: 278px;
 }
 
-.tips h1 {
+.tips h2 {
     font-family: Playfair Display;
     font-weight: bold;
     font-size: 100px;
@@ -127,17 +116,15 @@ li:hover {
 
 .tips2 {
     width: 400px;
-    height: 100px; 
+    height: 100px;
 
     position: absolute;
 
     margin-left: 1168px;
     margin-top: 420px;
-
 }
 
-.tips2 h1 {
-    font-family: Montserrat;
+.tips2 h2 {
     font-size: 35px;
     font-weight: 100;
     color: #fff;
@@ -179,9 +166,8 @@ li:hover {
     width: 768px;
     height: 278px;
 
-    font-family: Montserrat;
-    font-size: 29px;
-
+    font-size: 25px;
+    font-weight: 100;
     color: #fff
 }
 
