@@ -109,7 +109,7 @@ li:hover {
     font-family: Playfair Display;
     font-weight: bold;
     font-size: 100px;
-    color: #fff;
+    color: white;
 
     line-height: 90px;
 }
@@ -127,7 +127,7 @@ li:hover {
 .tips2 h2 {
     font-size: 35px;
     font-weight: 100;
-    color: #fff;
+    color: white;
 
     width: 450px;
     height: 98px;
@@ -154,7 +154,7 @@ li:hover {
     font-weight: 900;
     font-size: 70px;
 
-    color: #fff;
+    color: white;
 
     margin-bottom: 190px;
     margin-left: 100px;
@@ -168,7 +168,27 @@ li:hover {
 
     font-size: 25px;
     font-weight: 100;
-    color: #fff
+    color: white
+}
+
+.images-main {
+    max-width: 100%;
+    width: 1920px;
+    height: 3500px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 900px);
+    grid-template-rows: 600px 600px 600px;
+}
+
+.column-main-1 img {
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+.column-main-2 img {
+    margin-top: 300px;
+    margin-left: 25px;
 }
 
 .gallery-main {
