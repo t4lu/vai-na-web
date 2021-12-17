@@ -176,10 +176,11 @@ li:hover {
     color: white
 }
 
-.images-main {
+
+.tips-main {
     max-width: 100%;
     width: 1920px;
-    height: 3500px;
+    height: 4300px;
 
     display: grid;
     grid-template-columns: repeat(2, 900px);
@@ -187,13 +188,110 @@ li:hover {
 }
 
 .column-main-1 img {
-    margin-bottom: 200px;
+    margin-bottom: 450px;
     margin-left: 100px;
 }
 
 .column-main-2 img {
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: 25px;
+}
+
+.tip-1 {
+    background-color: #9767A9;
+    
+    width: 568px;
+    height: 513px;
+
+    position: absolute;
+
+    margin-left: 200px;
+    margin-top: 600px;
+
+    color: white;
+}
+
+.tip-1 h2 {
+    font-family: Playfair Display;
+    text-align: left;
+}
+
+.tip-2 {
+    background-color: #9767A9;
+    width: 500px;
+    height: 300px;
+
+    position: absolute;
+
+    margin-left: 1090px;
+    margin-top: 825px;
+
+    color: white;
+}
+
+.tip-3 {
+    background-color: #9767A9;
+    width: 568px;
+    height: 513px;
+
+    position: absolute;
+
+    margin-left: 200px;
+    margin-top: 1600px;
+
+    color: white;
+}
+
+.tip-4 {
+    background-color: #9767A9;
+    width: 500px;
+    height: 300px;
+
+    position: absolute;
+
+    margin-left: 1000px;
+    margin-top: 1900px;
+
+    color: white;
+}
+
+.tip-5 {
+    background-color: #9767A9;
+    width: 500px;
+    height: 300px;
+
+    position: absolute;
+
+    margin-left: 200px;
+    margin-top: 2700px;
+
+    color: white;
+}
+
+.tip-6 {
+    background-color: #9767A9;
+    width: 568px;
+    height: 203px;
+
+    position: absolute;
+    
+    margin-left: 1000px;
+    margin-top: 3000px;
+
+    color: white;
+}
+
+.tip-7 {
+    background-color: #9767A9;
+    width: 500px;
+    height: 300px;
+
+    position: absolute;
+
+    margin-left: 200px;
+    margin-top: 3900px;
+
+    color: white;
 }
 
 .gallery-main {
