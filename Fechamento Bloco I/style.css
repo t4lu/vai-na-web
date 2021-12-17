@@ -176,30 +176,18 @@ li:hover {
     color: white
 }
 
-
 .tips-main {
     max-width: 100%;
     width: 1920px;
-    height: 4300px;
+    height: 4270px;
 
     display: grid;
     grid-template-columns: repeat(2, 900px);
     grid-template-rows: 600px 600px 600px;
 }
 
-.column-main-1 img {
-    margin-bottom: 450px;
-    margin-left: 100px;
-}
-
-.column-main-2 img {
-    margin-top: 350px;
-    margin-left: 25px;
-}
-
 .tip-1 {
     background-color: #9767A9;
-    
     width: 568px;
     height: 513px;
 
@@ -212,14 +200,28 @@ li:hover {
 }
 
 .tip-1 h2 {
+    width: 450px;
+    height: 100px;
+
+    margin: 30px;
+    
     font-family: Playfair Display;
-    text-align: left;
+    font-size: 45px;
+}
+
+.tip-1 p {
+    width: 503px;
+    height: 312px;
+
+    margin: 30px;
+
+    font-size: 20px;
 }
 
 .tip-2 {
     background-color: #9767A9;
-    width: 500px;
-    height: 300px;
+    width: 530px;
+    height: 436px;
 
     position: absolute;
 
@@ -229,62 +231,157 @@ li:hover {
     color: white;
 }
 
+.tip-2 h2 {
+    width: 417px;
+    height: 60px;
+
+    margin: 20px;
+    
+    font-family: Playfair Display;
+    font-size: 45px;
+}
+
+.tip-2 p {
+    width: 490px;
+    height: 312px;
+
+    margin: 20px;
+
+    font-size: 19px;
+}
+
 .tip-3 {
     background-color: #9767A9;
-    width: 568px;
-    height: 513px;
+    width: 560px;
+    height: 340px;
 
     position: absolute;
 
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: 1600px;
 
     color: white;
 }
 
+.tip-3 h2 {
+    width: 340px;
+    height: 100px;
+
+    margin: 30px;
+
+    font-family: Playfair Display;
+    font-size: 45px;
+}
+
+.tip-3 p {
+    width: 503px;
+    height: 170px;
+
+    margin: 30px;
+
+    font-size: 20px;
+}
+
 .tip-4 {
     background-color: #9767A9;
-    width: 500px;
-    height: 300px;
+    width: 560px;
+    height: 340px;
 
     position: absolute;
 
-    margin-left: 1000px;
-    margin-top: 1900px;
+    margin-left: 1050px;
+    margin-top: 2000px;
 
     color: white;
 }
 
+.tip-4 h2 {
+    width: 505px;
+    height: 50px;
+
+    margin: 25px;
+    
+    font-family: Playfair Display;
+    font-size: 40px;
+}
+
+.tip-4 p {
+    width: 500px;
+    height: 210px;
+
+    margin: 25px;
+
+    font-size: 20px;
+}
+
 .tip-5 {
     background-color: #9767A9;
-    width: 500px;
-    height: 300px;
+    width: 575px;
+    height: 417px;
 
     position: absolute;
 
-    margin-left: 200px;
-    margin-top: 2700px;
+    margin-left: 210px;
+    margin-top: 2730px;
 
     color: white;
+}
+
+.tip-5 h2 {
+    width: 450px;
+    height: 51px;
+
+    margin: 30px;
+    
+    font-family: Playfair Display;
+    font-size: 45px;
+}
+
+.tip-5 p {
+    width: 513px;
+    height: 300px;
+
+    margin: 30px;
+
+    font-size: 20px;
 }
 
 .tip-6 {
     background-color: #9767A9;
     width: 568px;
-    height: 203px;
+    height: 363px;
 
     position: absolute;
-    
-    margin-left: 1000px;
-    margin-top: 3000px;
+
+    margin-left: 1045px;
+    margin-top: 2960px;
 
     color: white;
 }
 
+.tip-6 h2 {
+    width: 420px;
+    height: 60px;
+
+    margin: 20px;
+    
+    font-family: Playfair Display;
+    font-size: 45px;
+}
+
+.tip-6 p {
+    width: 503px;
+    height: 247px;
+
+    margin: 20px;
+
+    font-size: 20px;
+}
+
 .tip-7 {
     background-color: #9767A9;
-    width: 500px;
-    height: 300px;
+    width: 568px;
+    height: 299px;
 
     position: absolute;
 
@@ -292,6 +389,35 @@ li:hover {
     margin-top: 3900px;
 
     color: white;
+}
+
+.tip-7 h2 {
+    width: 450px;
+    height: 60px;
+
+    margin: 30px;
+    
+    font-family: Playfair Display;
+    font-size: 45px;
+}
+
+.tip-7 p {
+    width: 513px;
+    height: 170px;
+
+    margin: 30px;
+
+    font-size: 20px;
+}
+
+.column-main-1 img {
+    margin-bottom: 450px;
+    margin-left: 100px;
+}
+
+.column-main-2 img {
+    margin-top: 340px;
+    margin-left: 25px;
 }
 
 .gallery-main {
