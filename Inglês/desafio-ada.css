@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(96, 56, 119);
+}
+
+.menu {
+    display: inline;
+    flex-direction: row;
+    margin: 200px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: pink;
+    cursor: pointer;
+}
+
+li:hover {
+    color: purple;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200px;
+    color: pink;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+}
+
+header img {
+    width: 500px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border: solid 10px pink;
+    border-radius: 900px;
+}
+
+section {
+    display: flex;
+    margin-left: 100px;
+}
+
+.paragraph h3 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+.paragraph p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    max-width: 450px;
+    margin:20px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    margin: 90px;
+    border-radius: 30px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: pink;
+}
+
+button a:hover{
+    color: purple;
+}
+
+footer {
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: pink;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  footer a:hover {
+      color: purple;
+  }
+  
+  footer p {
+    font-size: 20px;
+    font-weight: bold;
+  }
